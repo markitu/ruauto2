@@ -1,0 +1,9 @@
+[0412/152211.755:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0412/152211.756:ERROR:exception_snapshot_win.cc(98)] thread ID 7772 not found in process
+[0413/190651.766:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0413/190651.784:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0413/190651.784:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0413/190651.784:ERROR:exception_snapshot_win.cc(98)] thread ID 5816 not found in process
+[0429/225521.246:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mark\AppData\Local\Temp\scoped_dir9004_947732646\Crashpad\settings.dat: Системе не удается найти указанный путь. (0x3)
+[0429/225521.247:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mark\AppData\Local\Temp\scoped_dir9004_947732646\Crashpad\reports\9a6f46d9-19a7-42ed-9488-7aabbbda1bd2.dmp: Системе не удается найти указанный путь. (0x3)
+[0429/225521.247:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
