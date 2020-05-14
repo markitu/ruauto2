@@ -7,3 +7,6 @@
 [0429/225521.246:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mark\AppData\Local\Temp\scoped_dir9004_947732646\Crashpad\settings.dat: Системе не удается найти указанный путь. (0x3)
 [0429/225521.247:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mark\AppData\Local\Temp\scoped_dir9004_947732646\Crashpad\reports\9a6f46d9-19a7-42ed-9488-7aabbbda1bd2.dmp: Системе не удается найти указанный путь. (0x3)
 [0429/225521.247:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0504/223208.737:ERROR:file_io_win.cc(161)] CreateFile C:\Users\mark\AppData\Local\Temp\scoped_dir10576_999296203\Crashpad\settings.dat: Системе не удается найти указанный путь. (0x3)
+[0504/223209.001:ERROR:file_io_win.cc(170)] CreateFile C:\Users\mark\AppData\Local\Temp\scoped_dir10576_999296203\Crashpad\reports\228119aa-1385-458e-9f39-71db1838d1f8.dmp: Системе не удается найти указанный путь. (0x3)
+[0504/223209.001:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed

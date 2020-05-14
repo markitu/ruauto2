@@ -22,7 +22,7 @@ public class LoginBase {
 
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
-        app.stop();
+        //app.stop();
     }
 
     protected static final class Selector {

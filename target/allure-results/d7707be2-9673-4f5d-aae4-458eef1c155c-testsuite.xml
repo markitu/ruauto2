@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1588620889485" stop="1588620902028" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : ruauto</name>
+    <title>Default Suite : ruauto</title>
+    <test-cases>
+        <test-case start="1588620901936" stop="1588620902018" status="passed">
+            <name>mainPageTitle</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="ruauto"/>
+                <label name="testClass" value="Login"/>
+                <label name="testMethod" value="mainPageTitle"/>
+                <label name="host" value="mark-ПК"/>
+                <label name="thread" value="4628@mark-ПК.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

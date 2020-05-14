@@ -7,6 +7,7 @@ import java.io.*;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.Scanner;
 
 import static com.codeborne.selenide.Selenide.*;
 
@@ -18,4 +19,10 @@ public class Login extends LoginBase {
     String s = app.driver.getTitle();
     Assert.assertEquals(s, Selector.MAINPAGE_TITLE);
   }
+
+  @Test
+  public void test2() {
+
+  }
+  
 }
