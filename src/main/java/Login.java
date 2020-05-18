@@ -20,5 +20,4 @@ public class Login extends LoginBase {
     Assert.assertEquals(s, Selector.MAINPAGE_TITLE);
   }
 
-
 }
