@@ -22,5 +22,6 @@ public class LoginBase {
 
     protected static final class Selector {
         public static final String MAINPAGE_TITLE = "CNN International - Breaking News, US News, World News and Video";
+        public static final String WORLDPAGE_TITLE = "CNN International - Breaking News, US News, World News and Video";
     }
 }
