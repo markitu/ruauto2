@@ -5,6 +5,6 @@ public class HealthPage extends HealthPageBase {
 
     @Test
     public void worldTitleTest() {
-        Assert.assertEquals(app.getUrl(), Selector.HEALTH_TITLE);
+        Assert.assertEquals(app.getCurrentPageTitle(), Selector.HEALTH_TITLE);
     }
 }

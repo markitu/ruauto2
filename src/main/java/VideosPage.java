@@ -5,6 +5,6 @@ public class VideosPage extends VideosPageBase {
 
     @Test
     public void worldTitleTest() {
-        Assert.assertEquals(app.getUrl(), Selector.VIDEOS_TITLE);
+        Assert.assertEquals(app.getCurrentPageTitle(), Selector.VIDEOS_TITLE);
     }
 }

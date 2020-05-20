@@ -5,6 +5,6 @@ public class SportsPage extends SportsPageBase {
 
     @Test
     public void worldTitleTest() {
-        Assert.assertEquals(app.getUrl(), Selector.SPORTS_TITLE);
+        Assert.assertEquals(app.getCurrentPageTitle(), Selector.SPORTS_TITLE);
     }
 }

@@ -38,7 +38,7 @@ public class ApplicationManager {
     driver.quit();
   }
 
-  public String getUrl() {
+  public String getCurrentPageTitle() {
     return driver.getTitle();
   }
 

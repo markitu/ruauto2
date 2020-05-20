@@ -5,6 +5,6 @@ public class StylePage extends StylePageBase {
 
     @Test
     public void worldTitleTest() {
-        Assert.assertEquals(app.getUrl(), Selector.STYLE_TITLE);
+        Assert.assertEquals(app.getCurrentPageTitle(), Selector.STYLE_TITLE);
     }
 }

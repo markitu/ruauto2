@@ -5,6 +5,6 @@ public class EntertainmentPage extends EntertainmentPageBase {
 
     @Test
     public void worldTitleTest() {
-        Assert.assertEquals(app.getUrl(), Selector.ENTERTAINMENT_TITLE);
+        Assert.assertEquals(app.getCurrentPageTitle(), Selector.ENTERTAINMENT_TITLE);
     }
 }
