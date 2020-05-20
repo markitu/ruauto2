@@ -1,16 +1,15 @@
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+
 import java.io.IOException;
+
 import static com.codeborne.selenide.Selenide.open;
 
 public class UsPoliticsPageBase {
 
     protected static final class Selector {
         public static final String USPOLITICS_TITLE = "CNNPolitics - Political News, Analysis and Opinion";
-    }
-
-    protected static final class Pages {
-        public static final String TEST = "TEST";
+        public static final String URL = "https://edition.cnn.com/politics";
     }
 
     protected final ApplicationManager app = new ApplicationManager();
@@ -18,7 +17,7 @@ public class UsPoliticsPageBase {
     @BeforeMethod(alwaysRun = true)
     public void setUp() throws IOException {
         app.init();
-        open(PropertiesLoader.getProp("URL"));
+        open(Selector.URL);
     }
 
     @AfterMethod(alwaysRun = true)
