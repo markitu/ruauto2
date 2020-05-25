@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 public class TravelPage extends TravelPageBase {
 
     @Test
-    public void worldTitleTest() {
+    public void travelPageTitleTest() {
         Assert.assertEquals(app.getCurrentPageTitle(), Selector.TRAVEL_TITLE);
     }
 }

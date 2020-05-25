@@ -8,8 +8,8 @@ import static com.codeborne.selenide.Selenide.open;
 public class EntertainmentPageBase {
 
     protected static final class Selector {
-        public static final String ENTERTAINMENT_TITLE = "Breaking News, Latest News and Videos - CNN";
-        public static final String URL = "https://edition.cnn.com/business";
+        public static final String ENTERTAINMENT_TITLE = "Entertainment News - Celebrities, Movies, TV, Music - CNN";
+        public static final String URL = "https://edition.cnn.com/entertainment";
     }
 
     protected final ApplicationManager app = new ApplicationManager();

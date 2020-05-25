@@ -4,7 +4,8 @@ import org.testng.annotations.Test;
 public class EntertainmentPage extends EntertainmentPageBase {
 
     @Test
-    public void worldTitleTest() {
+    public void entertainmentPageTitleTest() {
+        System.out.println(app.getCurrentPageTitle());
         Assert.assertEquals(app.getCurrentPageTitle(), Selector.ENTERTAINMENT_TITLE);
     }
 }

@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 public class VideosPage extends VideosPageBase {
 
     @Test
-    public void worldTitleTest() {
+    public void videosPageTitleTest() {
         Assert.assertEquals(app.getCurrentPageTitle(), Selector.VIDEOS_TITLE);
     }
 }
