@@ -1,9 +1,11 @@
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
+import java.io.File;
 import java.io.IOException;
-
-import static com.codeborne.selenide.Selenide.open;
 
 public class BusinessPageBase {
 
@@ -17,13 +19,39 @@ public class BusinessPageBase {
     @BeforeMethod(alwaysRun = true)
     public void setUp() throws IOException {
         app.init();
-        open(Selector.URL);
+        //open(Selector.URL);
     }
 
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
         //app.stop();
     }
+
+    public void playSound(String musicLocation) {
+        try {
+           File musicPath = new File(musicLocation);
+           if(musicPath.exists())
+           {
+               AudioInputStream audioInput = AudioSystem.getAudioInputStream(musicPath);
+               Clip clip = AudioSystem.getClip();
+               clip.open(audioInput);
+               clip.start();
+
+               //JOptionPane.showMessageDialog(null, "Press OK to stop playing");
+           }
+           else {
+               System.out.println("Can't fine file");
+           }
+
+
+        } catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
+
+
+
 
 
 }
